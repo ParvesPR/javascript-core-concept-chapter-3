@@ -13,3 +13,14 @@ for (var x = 0; x <= 100; x++) {
         console.log(x);
     }
 }
+// SUMMATION
+var sum = 0;
+for (var x = 0; x <= 10; x++) {
+    sum += x;
+    console.log(sum);
+}
+var sum = 0;
+for (var x = 1; x <= 10; x++) {
+    console.log(sum + ' +', x + ' = ' + (sum + x));
+    sum += x;
+}
