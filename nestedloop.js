@@ -9,6 +9,23 @@ for (var x = 1; x <= n; x++) {
     var result = ''
     for (var y = 1; y <= x; y++) {
         result += y + ' ';
-        console.log(result);
     }
+    console.log(result);
+}
+
+var n = 5;
+for (var x = 1; x <= n; x++) {
+    var result = '';
+    for (var y = 1; y <= x; y++) {
+        result += '* '
+    }
+    console.log(result);
+}
+var n = 5;
+for (var x = 1; x <= n; x++) {
+    var result = '';
+    for (var y = 1; y <= n; y++) {
+        result += '* '
+    }
+    console.log(result);
 }
